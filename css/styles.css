@@ -1,0 +1,131 @@
+/* Pallet
+
+ #28df99  #ecf4f3  #e0ece4  #68b0ab  #2d4059  #382933  #f0a500
+         #99f3bd  #68b0ab  #ff4b5c  #8fc0a9  #ea5455  #3b5249  #e94560
+          #d2f6c5  #006a71  #056674  #c8d5b9  #decdc3  #519872  #393b44
+          #f6f7d4  #ff7e67  #66bfbf  #faf3dd  #e5e5e5  #a4b494
+Elements */
+
+body {
+  background-color: #faf3dd;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Josefin Slab', serif
+}
+
+h2 {
+  font-family: 'Amatic SC', serif;
+}
+/***************************stupid shit****************************************/
+
+
+/**********************************footer*************************************/
+.footer {
+  color: #382933;
+  font-family: 'Amatic SC', serif;
+}
+
+
+.navbar {
+color: #382933;
+}
+
+
+
+
+
+
+.aboutme {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+.work {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+.education {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+.contact {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+.credit {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.aboutme {transition-timing-function: ease, transform 2s;}
+.work {transition-timing-function: ease, transform 2s;}
+.education {transition-timing-function: ease, transform 2s;}
+.contact {transition-timing-function: ease, transform 2s;}
+.credit {transition-timing-function: ease, transform 2s;}
+
+.aboutme:hover, .aboutme:active {
+  background-color: #fe7413;
+  color: #faf3dd;
+  border: solid 1px;
+  border-radius: 2em 8em 15em 30em / 10em 5em 12em 14em;
+  font-family: 'Amatic SC', serif;
+  font-size: 2rem;
+  transform: rotate(-10deg);
+}
+.work:hover, .work:active {
+  background-color: #32c9a2;
+  color: #faf3dd;
+  border: solid 1px;
+  border-radius: 4em 8em 10em 20em / 20em 10em 3em 6em;
+  font-family: 'Amatic SC', serif;
+  font-size: 2rem;
+  transform: rotate(10deg);
+}
+.education:hover, .education:active {
+  background-color: #ec5b87;
+  color: #faf3dd;
+  border: solid 1px;
+  border-radius: 3em 6em 3em 6em / 4em 8em 4em 8em;
+  font-family: 'Amatic SC', serif;
+  font-size: 2rem;
+  padding: 0;
+  transform: rotate(-10deg);
+}
+.contact:hover, .contact:active {
+  color: #faf3dd;
+  background-color: #e0c631;
+  border: solid 1px;
+  border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+  font-family: 'Amatic SC', serif;
+  font-size: 2rem;
+  transform: rotate(10deg);
+}
+.credit:hover, .credit:active {
+  background-color: #e6f1f8;
+  color: #faf3dd;
+  text-decoration: none;
+  border: solid 1px;
+  border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+  font-family: 'Amatic SC', serif;
+  font-size: 4rem;
+  transform: rotate(10deg);
+}
+
+a:link, a:visited {
+  font-family: 'Josefin Slab', serif;
+  background-color: #faf3dd;
+  margin: 5px 20px;
+
+}
+
+a:hover, a:active {
+  background-color: #ff7e67;
+  color: #faf3dd;
+  border: none;
+}
